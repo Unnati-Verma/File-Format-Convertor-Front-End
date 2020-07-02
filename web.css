@@ -1,0 +1,112 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Georgia;
+}
+
+header{
+	display: flex;
+	background:  lightblue;
+}
+
+h3{
+	background: white;
+	font-family: Felix Titling;
+	color: rgb(116, 153, 198);
+	font-size: 40px;
+	margin: 50px;
+	text-align: center;
+}
+
+.container{
+	width: 400px;
+	margin: 50px auto 0;
+	display: table;
+	box-sizing: border-box;
+}
+
+.row{
+	margin: 50px 0;
+
+}
+
+.column{
+	background: lightblue;
+	display: table-cell;
+	padding: 10px;
+	width: 33.33333%;
+	text-align: center;
+	color: white;
+	vertical-align: middle;
+	border-right: 10px solid #8A8AE5;
+	border-left: 10px solid #8A8AE5;
+
+}
+
+.info_container{
+	width: 800px;
+	margin: 50px auto 0;
+	display: table;
+	box-sizing: border-box;
+}
+
+.info_row{
+	margin: 50px 0;
+}
+
+.info_column{
+	background: white;
+	display: table-cell;
+	padding: 10px;
+	width: 33.33333%;
+	text-align: center;
+	color: black;
+	vertical-align: middle;
+	border-right: 10px solid white;
+	border-left: 10px solid white;
+
+}
+
+#dropFileForm #fileLabel{
+	background-color: lightblue;
+	display: block;
+	padding: 16px;
+	position: relative;
+	color: white;
+}
+
+#dropFileForm #fileInput{
+	display: none;
+}
+
+#dropFileForm #fileLabel:after,
+#dropFileForm #fileLabel: before{
+	position: absolute;
+	content: "";
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+
+#dropFileForm .UploadButton{
+	border:0;
+	outline: 0;
+	width: 100%;
+	padding: 8px;
+	color: #8A8AE5;
+}
+
+#dropFileForm{
+	margin: 16px;
+	text-align: center;
+	border-radius: 8px;
+	overflow: hidden;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="web.css"/>
+	<script type="text/javascript" src="web.js"></script>
+	<title>Converting Everything</title>
+</head>
+<body>
+	<header>
+		<div class="logo-container">
+			<img src="./logo.png" alt="logo">
+		</div>
+	</header>
+
+	<main>
+		<section class="presentation">
+			<div class="Conversion">
+				<h3> Thank you for choosing us.</h3>
+			</div>
+		</section>
+	</main>
+	<div class="container">
+		<div class="row">
+			<div class="column">
+				<p>JPG to PDF</p>
+			</div>
+			<div class="column">
+				<p>PDF to JPG</p>
+			</div>
+			<div class="column">
+				<p>PDF to DOC</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="column">
+				<p>DOC to PDF</p>
+			</div>
+			<div class="column">
+				<p>PNG to JPG</p>
+			</div>
+			<div class="column">
+				<p>JPG to PNG</p>
+			</div>
+		</div>
+	</div>
+	<form id="dropFileForm" action="" method="post">
+		<input type="file" name="files[]" id="fileInput" ondragover="overrideDefault(event)" ondragenter="overrideDefault(event)" ondragleave="overrideDefault(event)" ondrop="overrideDefault(event)">
+			<label for="fileInput" id="fileLabel">
+				Choose a file or drop it here
+			</label>
+			<input type="submit" value="Upload"
+			class="UploadButton">
+	</form>
+	<div class="info_container">
+		<div class="info_row">
+			<div class="info_column">
+				<h6>Easy to use</h6>
+				<p>We understand the value of your time so we're here to covert your files within seconds. Just drag and drop and we will do the rest.</p>
+			</div>
+			<div class="info_column">
+				<h6>Privacy Matters</h6>
+				<p>Because we know your files are important for you. We make sure that all the files will be deleted forever after half an hour.</p>
+			</div>
+			<div class="info_column">
+				<h6>Quality Conversion</h6>
+				<p>We make sure to keep the best quality of your files after conversion. Quality is the guarntee.</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
